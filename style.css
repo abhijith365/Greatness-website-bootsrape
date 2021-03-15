@@ -1,0 +1,360 @@
+body {
+    background: #fff;
+    color: #111;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+section {
+    margin: 0;
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+a {
+    color: #111;
+    transition: .5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #FF5722;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+/* ++++ landing page++++ */
+#header .wrapper {
+    background: url(./img/hero-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.404)), url(./img/hero-bg.jpg) fixed center center;
+    width: 100%;
+    height: 100vh;
+}
+
+#header nav {
+    padding: 10px 10%;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #FF5722;
+    transition: .5s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active:active,
+.navbar-dark .navbar-nav .nav-link.active:focus {
+    color: #FF5722;
+    text-decoration: none;
+}
+
+#header h1 {
+    padding-top: 20%;
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+#header h5 {
+    padding-bottom: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+#header .btn1 {
+    background: #FF5722;
+    border: 1px solid #FF5722;
+    color: white;
+    padding: 8px 15px;
+    margin-right: .8rem;
+    border-radius: 2px;
+}
+
+#header .btn2 {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.877);
+    color: white;
+    padding: 8px 17px;
+}
+
+#header .btn1:hover {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.877);
+    color: white;
+}
+
+#header .btn2:hover {
+    background: #FF5722;
+    color: white;
+    border-color: #FF5722;
+}
+
+@media (max-width: 768px) {
+    #header .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    #header h1 {
+
+        padding-top: 30%;
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+    }
+
+    h5 {
+        padding-bottom: 10px;
+        font-size: .9rem;
+    }
+
+    #header .btn1 {
+        font-size: .9rem;
+        background: #FF5722;
+        border: 1px solid #FF5722;
+        color: white;
+        padding: 5px 10px;
+        margin-right: .8rem;
+        margin-bottom: 80px;
+
+    }
+
+    #header .btn2 {
+        font-size: .9rem;
+        background: none;
+        border: 1px solid rgba(255, 255, 255, 0.877);
+        color: white;
+        padding: 5px 12px;
+        margin-bottom: 80px;
+    }
+}
+
+/* ++++ intro page ++++ */
+
+#intro-page .svg-inline--fa {
+    color: #FF5722;
+    font-size: 1.5rem;
+}
+
+#intro-page .intro-icon .icon {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: rgba(209, 209, 209, 0.815);
+}
+
+.intro-icon {
+    margin-bottom: 20px;
+}
+
+#intro-page .intro-icon .icon:hover {
+    color: #fff;
+    background: #FF5722;
+}
+
+#intro-page .btn {
+    color: #FF5722;
+    background: none;
+    border: 2px solid #FF5722;
+}
+
+#intro-page .btn:hover {
+    background: #FF5722;
+    color: white;
+}
+
+@media (max-width: 991px) {
+    #intro-page .btn {
+        margin-bottom: 40px;
+    }
+}
+
+/* ++++ video section ++++ */
+#video-section {
+    background-color: #e9ecef;
+}
+
+#video-section p {
+    padding-bottom: 40px;
+}
+
+#video-secton .card {
+    position: relative;
+}
+
+#video-section .card-img-overlay .video-icon .svg-inline--fa {
+    color: #FF5722;
+    font-size: 2rem;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+}
+
+/* ++++ count section ++++ */
+#count {
+    padding: 0 !important;
+    margin: 0;
+}
+
+#count .wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/count-bg.jpg) center center fixed;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+}
+
+#count .count-logo {
+    color: #ff5622cc;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+#count h3 {
+    color: #fff;
+}
+
+#count h6 {
+    padding-bottom: 20px;
+}
+
+/* ++++ testimonial ++++ */
+#testimonial {
+    background-color: #e9ecef;
+}
+
+#testimonial h2 {
+    margin-bottom: 30px;
+}
+
+#testimonial img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+#testimonial h6 span {
+    color: #FF5722;
+}
+
+/* ===== service ===== */
+#service h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#service h6 {
+    margin-bottom: 80px;
+    font-size: 1rem;
+}
+
+#service .tab-wrapper {
+    padding: 60px 0;
+}
+
+#service .nav-pills .nav-link {
+    color: #FF5722;
+    background: #e9ecef;
+}
+
+#service .nav-pills .nav-link:active,
+#service .nav-pills .nav-link:hover,
+#service .nav-pills .nav-link:focus {
+    color: #fff;
+    background: #FF5722;
+}
+
+#service .tab-wrapper .img-tab {
+    position: relative;
+}
+
+#service .tab-wrapper .video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#service .svg-inline--fa {
+    font-size: 2rem;
+    color: #FF5722;
+}
+
+#service .svg-inline--fa:hover {
+    color: #fff;
+}
+
+/* +++ footer +++  */
+
+footer .footer {
+    background: #111;
+    padding: 60px 0 80px 0;
+    color: #fff;
+}
+
+footer .footer p {
+    padding-bottom: 40px;
+}
+
+footer .footer .foo {
+    padding: 7px 15px;
+}
+
+footer .footer .row {
+    margin: 0 10%;
+}
+
+footer .footer .btn {
+    color: #fff;
+    background-color: #FF5722;
+    width: 233px;
+    height: 42px;
+    border-radius: 0;
+}
+
+footer .footer .btn:hover {
+    color: #111;
+    background-color: white;
+}
+
+@media (max-width: 992px) {
+    footer .footer .foo {
+        margin-bottom: 20px;
+    }
+}
+
+footer .udder-foo {
+    padding: 50px 0;
+}
+
+footer .footer-con {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
